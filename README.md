@@ -1,6 +1,5 @@
 # Tello-Drone
 
-
 ## Tello Drone Control with Keyboard
 
 This project demonstrates how to control a Tello drone using Python and the Tello SDK. It provides a simple keyboard interface to perform various drone actions such as takeoff, landing, moving up, moving forward, rotating clockwise, and performing flips.
@@ -38,3 +37,9 @@ python main.py
 * 'l': Perform a land
 * 'q': Quit the program
 * 'v' : to record vdeio
+
+## Camera
+
+* Used openCv to be able to get the camera to work. P.s. camera is laggy but it works!
+
+* When you start stream it willl have add a file so delete the output.avi file when you done with the drone program. 
