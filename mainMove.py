@@ -16,7 +16,7 @@ def video_stream_on():
     response = tello.video_stream_on()
     print("Video stream on response:", response)
 
-# Function to turn off the video stream
+# The Function to turn off the video stream
 def video_stream_off():
     response = tello.video_stream_off()
     print("Video stream off response:", response)
@@ -25,22 +25,22 @@ def set_video_fps_high():
     response = tello.set_fps('high')
     print("Set video FPS to high response:", response)
 
-# Function to set the video stream resolution to high
+# The Function to set the video stream resolution to high
 def set_video_resolution_high():
     response = tello.set_resolution('high')
     print("Set video resolution to high response:", response)
 
-# Function to set the video stream bitrate to 0 (automatic)
+# The Function to set the video stream bitrate to 0 (automatic)
 def set_video_bitrate_auto():
     response = tello.set_bitrate(0)
     print("Set video bitrate to automatic response:", response)
 
-# Function to create a video window and display the video feed
+# The Function to create a video window and display the video feed
 def video_stream_on():
     response = tello.video_stream_on()
     print("Video stream on response:", response)
 
-# Function to stop video streaming
+# The Function to stop video streaming
 def video_stream_off():
     response = tello.video_stream_off()
     print("Video stream off response:", response)
@@ -94,32 +94,32 @@ def move_up():
 
 # Function to move down
 def move_down():
-    response = tello.down(50)
+    response = tello.down(50) # the number represent how many cm to go up 
     print("Down response:", response)
 
 # Function to move forward
 def move_forward():
-    response = tello.forward(100)  
+    response = tello.forward(100)  # going forward 100 cm
     print("Forward response:", response)
 
 # Function to move backward
 def move_backward():
-    response = tello.back(100)
+    response = tello.back(100) # back 100cm
     print("Backward response:", response)
 
 # Function to turn left
 def move_left():
-    response = tello.left(100)  
+    response = tello.left(100)  # movin left 100 cm
     print("Left response:", response)
 
 # Function to turn right
 def move_right():
-    response = tello.right(100)
+    response = tello.right(100) # movin right 100cm
     print("Right response:", response)
 
 # Function to rotate clockwise
 def rotate_clockwise():
-    response = tello.rotate('cw', 90)
+    response = tello.rotate('cw', 90) 
     print("Rotate response:", response)
 
 # Function to perform a flip
